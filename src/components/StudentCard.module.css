@@ -1,0 +1,108 @@
+.card {
+  border: 1px solid #d8cdf0;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(76, 29, 149, 0.08);
+}
+
+.probation {
+  border-color: #b00020;
+  background-color: #fff5f5;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #3b0764;
+}
+
+.badge {
+  font-size: 0.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #7c3aed;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 3px 8px;
+  white-space: nowrap;
+}
+
+.detail {
+  margin: 4px 0 0;
+  font-size: 0.9rem;
+  color: #4b3a63;
+}
+
+.editInput {
+  width: 100%;
+  padding: 6px 8px;
+  margin-top: 6px;
+  border: 1px solid #c4b5e8;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #2e1a47;
+}
+
+.editInput:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+}
+
+.cardActions {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.editButton,
+.saveButton {
+  padding: 6px 12px;
+  border: 1px solid #6d28d9;
+  border-radius: 6px;
+  background-color: #6d28d9;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.editButton:hover,
+.saveButton:hover {
+  background-color: #5b21b6;
+}
+
+.deleteButton {
+  padding: 6px 12px;
+  border: 1px solid #b00020;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #b00020;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.deleteButton:hover {
+  background-color: #fff0f0;
+}
+
+.cancelButton {
+  padding: 6px 12px;
+  border: 1px solid #c4b5e8;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #4c1d95;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.cancelButton:hover {
+  background-color: #f3edfd;
+}
